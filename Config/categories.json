@@ -1,0 +1,157 @@
+{
+  "confidenceThreshold": 0.75,
+  "classifierRules": {
+    "tieBreakCategories": [
+      "Consume",
+      "Learn"
+    ],
+    "tieBreakDefault": "Consume",
+    "flagTieBreakAsUncertain": true
+  },
+  "categories": [
+    {
+      "order": 1,
+      "name": "Consume",
+      "safariFolder": "Consume",
+      "description": "Watching, reading, or listening to content someone else made.",
+      "examples": [
+        "movies",
+        "articles read once",
+        "music",
+        "streaming"
+      ],
+      "exclusions": [],
+      "enabled": true
+    },
+    {
+      "order": 2,
+      "name": "Create",
+      "safariFolder": "Create",
+      "description": "Making, writing, drawing, designing, or building something. The primary activity is producing or editing the thing itself - the user is actively making the output.",
+      "examples": [
+        "design work",
+        "portfolios",
+        "active file storage",
+        "building out a website, portfolio, or profile for your own identity",
+        "project-building resources",
+        "using design software (e.g. Figma) to make a design",
+        "using a video editor to produce a video"
+      ],
+      "exclusions": [
+        "a tool used as a means to an outcome rather than the creative work itself (e.g. an image/file/unit converter, a compressor, a calculator) - that's Solve, even if it technically modifies a file",
+        "registering or signing up for a domain, account, or service - the transactional act of acquiring something is Solve, even when what you're acquiring is for your own identity or a future creative project"
+      ],
+      "enabled": true
+    },
+    {
+      "order": 3,
+      "name": "Play",
+      "safariFolder": "Play",
+      "description": "Games, sports, instruments. If it is a game, it is ALWAYS Play - a slow, ambient, relaxing, cozy, or meditative game is still Play, never Relax.",
+      "examples": [
+        "games",
+        "sports",
+        "instruments"
+      ],
+      "exclusions": [],
+      "enabled": true
+    },
+    {
+      "order": 4,
+      "name": "Learn",
+      "safariFolder": "Learn",
+      "description": "Studying, practicing, or conducting active in-depth research on a specific subject or skill the user is trying to understand or improve.",
+      "examples": [],
+      "exclusions": [],
+      "enabled": true
+    },
+    {
+      "order": 5,
+      "name": "Explore",
+      "safariFolder": "Explore",
+      "description": "Open-ended browsing, discovery, or looking something up with no specific ongoing task, project, study objective, or defined purpose.",
+      "examples": [],
+      "exclusions": [],
+      "enabled": true
+    },
+    {
+      "order": 6,
+      "name": "Connect",
+      "safariFolder": "Connect",
+      "description": "Communication and relationships: the primary purpose is communicating with or maintaining relationships with other people.",
+      "examples": [
+        "messaging",
+        "calls",
+        "social platforms",
+        "staying in touch with people"
+      ],
+      "exclusions": [],
+      "enabled": true
+    },
+    {
+      "order": 7,
+      "name": "Move",
+      "safariFolder": "Move",
+      "description": "Physical activity.",
+      "examples": [
+        "exercise",
+        "hiking",
+        "dance",
+        "physical activity"
+      ],
+      "exclusions": [],
+      "enabled": true
+    },
+    {
+      "order": 8,
+      "name": "Collect",
+      "safariFolder": "Collect",
+      "description": "Saving or archiving something for later reference, records, or claims. This is about preserving something for later, NOT primarily for immediate use.",
+      "examples": [
+        "records",
+        "receipts",
+        "claims",
+        "reference material being intentionally saved",
+        "things that need to be retained"
+      ],
+      "exclusions": [],
+      "enabled": true
+    },
+    {
+      "order": 9,
+      "name": "Relax",
+      "safariFolder": "Relax/Focus",
+      "description": "Ambient or passive experiences intended to unwind or establish a mood. The user is not trying to accomplish a task, study something, communicate, create something, or actively interact with the content.",
+      "examples": [],
+      "exclusions": [
+        "games (a game is ALWAYS Play, never Relax, regardless of pace or tone)"
+      ],
+      "enabled": true
+    },
+    {
+      "order": 10,
+      "name": "Solve",
+      "safariFolder": "Solve",
+      "description": "Tools being actively used to accomplish or move something forward. The primary activity is using a tool to accomplish a task - the tool is the means to an outcome, rather than the creative work itself.",
+      "examples": [
+        "converters",
+        "editors used as utilities (not to produce creative output)",
+        "bridges",
+        "dashboards",
+        "support chats",
+        "account logins",
+        "utilities",
+        "services used to complete a task",
+        "image converter",
+        "PDF compressor",
+        "calculator",
+        "unit converter",
+        "file format converter",
+        "registering a domain, account, or service",
+        "trackers and live dashboards (e.g. gas fee tracker, price tracker)"
+      ],
+      "exclusions": [],
+      "enabled": true
+    }
+  ]
+}

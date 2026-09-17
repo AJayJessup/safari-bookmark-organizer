@@ -1,0 +1,11 @@
+.build/
+.swiftpm/
+backups/
+*.xcodeproj
+# Phase 7 runtime checkpoint (known-bookmarks state). This lives at
+# ~/.safari-organizer/state/known_bookmarks.json, outside this repo entirely, so it
+# can't be committed from here - this entry is a defensive backstop in case that
+# ever changes or a local test path lands inside the project folder.
+state/
+# (organize_log.jsonl lives alongside known_bookmarks.json at the same
+# ~/.safari-organizer/state path, for the same reason)
