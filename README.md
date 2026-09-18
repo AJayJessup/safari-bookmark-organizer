@@ -1,5 +1,10 @@
 # Safari Intelligent Bookmark Organizer
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Platform: macOS](https://img.shields.io/badge/platform-macOS-lightgrey.svg)](#)
+[![Swift](https://img.shields.io/badge/swift-5.9-orange.svg)](#)
+[![Status: prototype](https://img.shields.io/badge/status-early%20prototype-blue.svg)](#)
+
 Status: early prototype. Safari is the source of truth - this project never has its
 own bookmark database. See PHASE1_PROPOSAL.md for the environment investigation this
 was built on.
@@ -206,3 +211,13 @@ An explicit command to intentionally reorganize your *existing* bookmark library
 management commands, and the control-panel UI. Each needs a decision or an approval
 before it's built - see the open items in PHASE1_PROPOSAL.md and the conversation
 this project came out of.
+
+## License
+
+MIT - see [LICENSE](LICENSE).
+
+## Support this project
+
+If this saved you some bookmark-organizing sanity, you can [buy me a coffee](https://buymeacoffee.com/heyamber).
+
+[<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="41" width="174">](https://buymeacoffee.com/heyamber)
